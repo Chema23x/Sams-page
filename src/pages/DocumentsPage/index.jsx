@@ -10,7 +10,7 @@ import { findUrl } from "@/utils/functions";
 
 const DocumentsPage = () =>{
     const [selectedPdf, setSelectedPdf] = useState(null);
-    const [file, setFile] = useState(keys[0])
+    const [file] = useState(keys[0])
 
     const handlePdfClick = (pdfTitle) => {
         setSelectedPdf(pdfTitle);
