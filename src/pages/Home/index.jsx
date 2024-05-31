@@ -1,8 +1,10 @@
 
 // import CustomizedProgressBar from "@/components/circularProgress";
-import FrameFullWidth from "@/components/frameFullWidth/frameFullWith";
-import OptionFrame from "@/components/optionFrame/optionFrame";
-import { components } from "@/utils/constants";
+import FrameFullWidth from "@/components/frameFullWidth/frameFullWith"
+import OptionFrame from "@/components/optionFrame/optionFrame"
+import { components } from "@/utils/constants"
+import Image from "next/image"
+import Logo from "../../assets/logo/logo_sams.png"
 
 const LoginPage = () => {
 
@@ -11,9 +13,9 @@ const LoginPage = () => {
     return(
      <>   
     
-        <section className="h-screen w-screen flex flex-col md:gap-4">
+        <section className="h-screen w-full flex flex-col md:gap-4">
             <header className="flex justify-center items-center w-full h-[100px] md:h-1/6 lg:mt-2">
-                <img className="w-3/12 md:w-3/12 lg:w-[150px]" src="assets/bgImages/samsTitle.png" alt="Titulo Sams" />
+                <Image width={600} className="px-20" src={Logo}/>
             </header>
             <div className="flex flex-col items-center justify-start h-full w-full gap-4 md:gap-7">
                 <FrameFullWidth 

@@ -19,7 +19,7 @@ const ComicsPage = () =>{
 
     return (
     <> 
-        <section className={`${selectedComic === null ? "h-screen w-screen relative" : "hidden"}`}>
+        <section className={`${selectedComic === null ? "h-screen w-full relative" : "hidden"}`}>
             <div className="flex w-full items-center my-5">
                 <Arrow
                     currentPage={"Historietas"}
