@@ -2,6 +2,7 @@ import Image from "next/image"
 import LoginPage from "../Home"
 import { useState, useEffect } from "react"
 import Hero from "../../assets/gifs/sudadera_sams.gif"
+import Logo from "../../assets/logo/logo_sams.png"
 
 const LoadingPage = () =>{
     const [isShowLoadingPage, setShowLoadingPage] = useState(true);
@@ -20,7 +21,7 @@ const LoadingPage = () =>{
              <img className="h-4/6 w-full absolute" src="assets/bgImages/loginBg.png" alt="fondo" />
              <div className="flex flex-col justify-start h-full w-full gap-10">
                  <div className="flex justify-center items-center z-10 h-1/6 w-full relative">  
-                     <img className="w-5/12 md:w-4/12 lg:w-2/12 absolute top-10 lg:top-15 xl:left-[500px] 2xl:left-[700px]" src="assets/bgImages/samsTitle.png" alt="Titulo Sams" />
+                 <Image width={600} className="px-10 absolute top-32" src={Logo}/>
                  </div>
                  <div className="flex justify-center items-center z-10 h-4/6 w-full">   
                      <Image className="animation" src={Hero} alt="hero" width={280} height={250} />
