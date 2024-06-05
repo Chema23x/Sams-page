@@ -65,7 +65,7 @@ const LoginPage = () => {
                                 icon={"assets/icons/videosIcon.png"} 
                                 altIcon={"icono video"} 
                                 iconText={"Videos"}
-                                linkTo={"/VideosPage"}
+                                linkTo={"/Videos"}
                                 iconClassName={"h-2/6 absolute top-[20%] right-[10%]"}
                             />
                         </div>

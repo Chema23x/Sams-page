@@ -19,11 +19,11 @@ export const comics = [
 
 //Videos
 export const videos = [
-    "Video SM celulares-tablet",
-    "Video SM computo",
-    "Video SM electrónica",
-    "Video SM línea blanca",
-    "Video SM Pantallas"
+    "Video Categoría Celulares y Tablets",
+    "Video Categoría Cómputo",
+    "Video Categoría Electrónicos",
+    "Video Categoría Línea Blanca",
+    "Video Categoría Pantallas"
 ]
 
 //Pages
@@ -48,11 +48,11 @@ export const Urls = [
     "/assets/pdfs/ContratoGarantíaExtendida.pdf",
     "/assets/pdfs/PreciadorGarantíaExtendidaSM.pdf",
     "/assets/pdfs/PreciadorGESamsCarta.pdf",
-    "/assets/videos/VideoSMCelulares-tablets.mp4",
-    "/assets/videos/VideoSMComputo.mp4",
-    "/assets/videos/VideoSMPantallas.mp4",
-    "/assets/videos/VideoSMLineaBlanca.mp4",
-    "/assets/videos/VideoSMElectronica.mp4"
+    "/assets/videos/VideoCategoriaCelularesyTablets.mp4",
+    "/assets/videos/VideoCategoriaComputo.mp4",
+    "/assets/videos/VideoCategoriaPantallas.mp4",
+    "/assets/videos/VideoCategoriaLineaBlanca.mp4",
+    "/assets/videos/VideoCategoriaElectronicos.mp4"
 ]
 
 //Function
@@ -69,6 +69,6 @@ export const Urls = [
 export const components = [
     {icon: "assets/icons/pdfIcon.png", altIcon: "icono pdf", iconText:"Documentos",linkTo: "/DocumentsPage"},
     {icon: "assets/icons/imageIcon.png",altIcon:"icono imagen", iconText:"Imagenes",linkTo:"/ImagesPage"},
-    {icon: "assets/icons/videosIcon.png",altIcon:"icono video",iconText:"Videos",linkTo:"/VideosPage"},
+    {icon: "assets/icons/videosIcon.png",altIcon:"icono video",iconText:"Videos",linkTo:"/Videos"},
     {icon: "assets/icons/bookIcon.png",altIcon:"icono book", iconText:"Historietas",linkTo:"/ComicsPage"}
 ]
