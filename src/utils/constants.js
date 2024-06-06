@@ -16,7 +16,7 @@ export const imgs = [
 
 //Comics
 export const comics = [
-    "Historieta eléctricos",
+    "Historieta Eléctricos",
     "Historieta Celulares"
 ]
 
@@ -32,10 +32,10 @@ export const videos = [
 //Pages
 
 export const pages = {
-    Documentos: "/documentsPage",
-    Imagenes: "/imagesPage",
-    Historietas: "/comicsPage",
-    Videos: "/videosPage"
+    Documentos: "/Documentos",
+    Imagenes: "/Imagenes",
+    Historietas: "/Historietas",
+    Videos: "/Videos"
 };
 
 //Keys
@@ -74,8 +74,8 @@ export const Urls = [
 // Generar OptionsFrames
 
 export const components = [
-    {icon: "assets/icons/pdfIcon.png", altIcon: "icono pdf", iconText:"Documentos",linkTo: "/DocumentsPage"},
-    {icon: "assets/icons/imageIcon.png",altIcon:"icono imagen", iconText:"Imagenes",linkTo:"/ImagesPage"},
+    {icon: "assets/icons/pdfIcon.png", altIcon: "icono pdf", iconText:"Documentos",linkTo: "/Documentos"},
+    {icon: "assets/icons/imageIcon.png",altIcon:"icono imagen", iconText:"Imagenes",linkTo:"/Imagenes"},
     {icon: "assets/icons/videosIcon.png",altIcon:"icono video",iconText:"Videos",linkTo:"/Videos"},
-    {icon: "assets/icons/bookIcon.png",altIcon:"icono book", iconText:"Historietas",linkTo:"/ComicsPage"}
+    {icon: "assets/icons/bookIcon.png",altIcon:"icono book", iconText:"Historietas",linkTo:"/Historietas"}
 ]
