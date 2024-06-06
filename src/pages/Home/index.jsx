@@ -5,6 +5,7 @@ import OptionFrame from "@/components/optionFrame/optionFrame"
 import { components } from "@/utils/constants"
 import Image from "next/image"
 import Logo from "../../assets/logo/logo_sams.png"
+import Hero from "../../assets/gifs/sudadera_sams.gif"
 
 const LoginPage = () => {
 
@@ -21,8 +22,8 @@ const LoginPage = () => {
                 <FrameFullWidth 
                     titleFrameFull={"¡Sorprendente!"} 
                     textFrameFull={"PDF, imagenes, videos e historietas"}
-                    imageSource={"assets/hoodies/hoodiePage2.png"}
-                    imageAlt={"hoodie page 2"}
+                    imageSource={Hero}
+                    imageAlt={"Hero"}
                     textClassname="text-end md:text-center w-10/12 text-xs md:text-2xl mr-5"
                     bgImage={""} 
                 />

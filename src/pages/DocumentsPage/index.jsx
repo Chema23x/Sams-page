@@ -36,7 +36,7 @@ const DocumentsPage = () =>{
             <div className="flex flex-col items-center h-5/6 w-full gap-4">
                 <FrameFullWidth 
                  textFrameFull={"Consulta nuestra información en los archivos adjuntos"}
-                 imageSource={"assets/hoodies/hoodieAssetsPages.png"}
+                 imageSource={"/assets/hoodies/hoodieAssetsPages.png"}
                  imageAlt={"hoodie page 2"}
                  textClassname="text-end w-full text-xs md:text-2xl lg:text-3xl md:text-center absolute top-10 md:top-7 right-6"
                  bgImage={"assets/bgImages/bgline.png"}

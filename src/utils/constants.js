@@ -2,7 +2,9 @@
 export const pdfs = [
     "Preciador garantía extendida SM",
     "Contrato garantía extendida",
-    "Preciador GE Sams carta"   
+    "Preciador GE Sams carta",
+    "Contacto Soluciones Financieras",
+    "Contacto de Atención a Socio"   
 ]
 
 //Images
@@ -15,6 +17,7 @@ export const imgs = [
 //Comics
 export const comics = [
     "Historieta eléctricos",
+    "Historieta Celulares"
 ]
 
 //Videos
@@ -44,10 +47,14 @@ export const keys = Object.keys(pages)
 
 export const Urls = [
     "/assets/comics/HistorietaElectricos.pdf",
+    "/assets/comics/Historieta Celulares.pdf",
     "/assets/imagenes/Elegibles.jpg",
     "/assets/pdfs/ContratoGarantíaExtendida.pdf",
     "/assets/pdfs/PreciadorGarantíaExtendidaSM.pdf",
     "/assets/pdfs/PreciadorGESamsCarta.pdf",
+    "/assets/pdfs/PreciadorGESamsCarta.pdf",
+    "/assets/pdfs/Contacto Soluciones Financieras.pdf",
+    "/assets/pdfs/Contacto de Atención a Socio.pdf",
     "/assets/videos/VideoCategoriaCelularesyTablets.mp4",
     "/assets/videos/VideoCategoriaComputo.mp4",
     "/assets/videos/VideoCategoriaPantallas.mp4",
