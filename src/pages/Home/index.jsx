@@ -4,7 +4,7 @@ import FrameFullWidth from "@/components/frameFullWidth/frameFullWith"
 import OptionFrame from "@/components/optionFrame/optionFrame"
 import { components } from "@/utils/constants"
 import Image from "next/image"
-import Logo from "../../assets/logo/logo_gsams.png"
+import Logo from "../../assets/logo/logo_sams.png"
 import Hero from "../../assets/gifs/sudadera_sams.gif"
 
 const LoginPage = () => {
